@@ -9,7 +9,8 @@
 ## Description
 
 I built a homepage for a website following a [photoshop file] and a png image as the design and layout of the website. The site has the following features;
-- Sticky nav bar
+
+- Fully flex box layout
 - Slider with images
 - Youtube embedded player
 - Hyperlinks in sections
