@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Angel Code Exercise</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <span id="js-navbar-toggle" class="navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a href="#" class="logo"> <img src="./images/logo3.png" alt="logo"> </a>
+      <ul id="js-menu" class="main-nav">
+          <li> <a href="#locations" class="nav-links">Locations</a> </li>
+          <li> <a href="#workspace" class="nav-links">Workspace</a> </li>
+          <li> <a href="#video" class="nav-links">Mission</a> </li>
+          <li> <a href="#sec-banner" class="nav-links">Labs</a> </li>
+          <li> <a href="#contact"> <button>Contact</button></a> </li>
+      </ul>
+    </nav>
+
+<!-- hero section  -->
+    <section class="hero">
+      <div>
+        <h1> Space to elevate work</h1>
+        <p>
+          From desks to offices and entire headquarters, </br>
+          we create environments for productivity,</br>
+          innovation and connection.
+        </p>
+      </div>
+    </section>
+
+<!-- secton section  -->
+    <section class="image-text">
+      <div class="img-flex" data-aos="zoom-in-right">
+        <img src="./images/together.png" alt="image">
+      </div>
+
+      <div class="text-flex" data-aos="zoom-in-left">
+        <h3> Where company becomes community </h3>
+        <p>
+          Space has the power to transform business - unlocking the potential
+          of people and organisations. Internation design, warm hosipitality and
+          flexible solutions enable your team to do their best work.
+        </p>
+        <a href="#" class="links"> View all locations </a>
+      </div>
+    </section>
+
+<!-- workspace (columns) section -->
+    <section id="workspace">
+      <div class="col-header-text">
+        <h3> Space for all teams </h3>
+      </div>
+
+      <div class="col-wrapper"
+          data-aos="fade-up"
+          data-aos-delay="9000"
+      >
+        <div class="col">
+          <img src="./images/couch.jpg" alt="couch">
+          <h3> Private Offices </h3>
+          <p> Desk membership with access to premium amenitites and rooms. </p>
+          <a href="#" class="links"> View desk membership </a>
+        </div>
+
+        <div class="col">
+          <img src="./images/shared.jpg" alt="shared space">
+          <h3> Shared Workspace </h3>
+          <p> Personalised spaces for your next headquarters or statellite office. </p>
+          <a href="#" class="links"> Explore office solutions </a>
+        </div>
+
+        <div class="col">
+          <img src="./images/table.jpg" alt="table">
+          <h3> Events Space </h3>
+          <p> On-demand space for your next product launch, workshop or presentation. </p>
+          <a href="#" class="links"> Host an event </a>
+        </div>
+      </div>
+    </section>
+
+<!-- banner section -->
+    <section class="banner">
+      <div class="banner-text">
+        <h3> Space for the world's </br> largest companies </h3>
+        <p> The world's most innovative companies are using WeWork to think </br> differently about workspace. </p>
+        <a href="#"> <button> View enterprise solutions </button> </a>
+      </div>
+    </section>
+
+<!-- second banner -->
+    <section id="sec-banner">
+      <div data-aos="fade-right">
+        <img src="./images/banner.jpg" alt="image">
+      </div>
+      <div class="sec-text" data-aos="fade-left">
+        <h3>Supporting communities and creating impact</h3>
+        <p>
+          We come together through initiatives that make a difference. <br/>
+          From recruiting refuges to working with ex-service personnel and advancing sustainability, we put people and the planet first.
+        </p>
+        <a href="#" class="links"> Explore our newsroom</a>
+      </div>
+    </section>
+
+<!-- locations section -->
+    <section id="locations" data-aos="fade-zoom-in" data-aos-easing="ease-in">
+      <div class="col-header-text">
+        <h3> Locations </h3>
+      </div>
+
+      <div class="locations-headers">
+        <h4>United States</h4>
+        <h4>London</h4>
+        <h4>Asia</h4>
+        <h4>Australia</h4>
+      </div>
+
+      <div class="loc-img-text">
+        <div class="main-content">
+          <img src="./images/img.jpg" alt="image">
+        </div>
+        <div class="loc-text main-content">
+          <h2> 1 St. Katherine's Way </h2>
+          <p>
+            Situated right in St. Katherine Docks, discover London Offices
+            spaces with panoramic views over the city, Thames and marina.
+            WeWork Tower Bridge offers a modern coworking experience up on the top floors of a historic buildin.
+          </p>
+          <div class="flex-price">
+            <div>
+              <p> <span>Private offices</span>  </p>
+              <p> <span>Dedicated desks</span>  </p>
+              <p> <span>Hot desks</span> </p>
+            </div>
+            <div class="price">
+              <p>From £768 /mo</p>
+              <p>From £550 /mo</p>
+              <p>From £450 /mo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="loc-btn">
+        <a href="#"> <button> View all locations </button> </a>
+      </div>
+    </section>
+
+<!-- video section -->
+    <section id="video">
+      <div>
+        <h3> Life at WeWork </h3>
+        <iframe width="600" height="345" src="https://www.youtube.com/embed/Tj25cD9m-zQ">
+        </iframe>
+      </div>
+    </section>
+
+<!-- carousel section -->
+
+    <div class="carousel">
+      <div class="carousel-cell">
+        <img src="./images/3.png" alt="workspace" />
+      </div>
+      <div class="carousel-cell">
+        <img src="./images/2.jpg" alt="workspace" />
+      </div>
+      <div class="carousel-cell">
+        <img src="./images/1.jpg" alt="workspace" />
+      </div>
+      <div class="carousel-cell">
+        <img src="./images/4.jpg" alt="co-workers" />
+      </div>
+    </div>
+
+<!-- contact form -->
+
+    <section id="contact">
+      <div class="col-header-text">
+        <h3> Contact Us </h3>
+        <p>
+          We'll follow up! Once of our workspace experts will reach out to you, based on your </br>
+          communication preferences.
+        </p>
+      </div>
+
+      <form>
+        <div class="form-flex-wrapper">
+          <div class="col-contact">
+
+            <div class="labels">
+              <label> Full name: </label>
+            </div>
+            <input type="text" name="fullName" placeholder=" Your full name">
+            <div class="labels">
+              <label> Email address: </label>
+            </div>
+            <input type="text" name="email" placeholder="Best email to contact you">
+            <div class="labels">
+              <label> I'm interested in: </label>
+            </div>
+
+            <div class="radio-labels">
+              <input type="radio" name="checkbox" value="workspace">
+              <label> Finding workspace </label>
+            </div>
+
+            <div class="radio-labels">
+              <input type="radio" name="checkbox" value="membership">
+              <label> Talking about my membership </label>
+            </div>
+
+            <div class="radio-labels">
+              <input type="radio" name="checkbox" value="somethingElse">
+              <label> Something else </label>
+            </div>
+
+          </div>
+
+          <div class="col-contact">
+            <div class="labels">
+              <label> Company name: </label>
+            </div>
+            <input type="text" name="companyName" placeholder="Company interested in space">
+
+            <div class="labels">
+              <label> Phone number: </label>
+            </div>
+            <input type="text" name="number" placeholder="best number to contact you">
+
+            <div class="labels">
+              <label> Notes: </label>
+            </div>
+            <textarea placeholder="Optional"></textarea>
+
+          </div>
+        </div>
+        <div class="last-label">
+          <input type="radio" name="checkbox" value="communications">
+          <label> I would like to send me exciting offers and other communications </label>
+        </div>
+        <div class="submit-btn">
+          <button type="submit" value="Submit">Submit</button>
+          <aside> By clicking above button you agree to our Terms
+          of Service </br> and have read and understood our Privacy Policy </aside>
+        </div>
+      </form>
+    </section>
+
+<!-- footer -->
+    <footer>
+      <div class="footer-flex-wrapper">
+        <div>
+          <span><i class="fas fa-phone"></i> +44 12345 67890</span>
+        </div>
+        <div>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookies</a>
+          <a href="#">Accessibility</a>
+          <a href="#">FAQ</a>
+        </div>
+        <div>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <aside> Copyright © WeWork Companies Inc. All rights reserved </aside>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000 })
+    </script>
+  </body>
+</html>
