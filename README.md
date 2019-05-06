@@ -8,7 +8,7 @@
 
 ## Description
 
-I built a homepage for a website following a [photoshop file] and a png image as the design and layout of the website. The site has the following features;
+I built a homepage for a website following a [photoshop file] as the design and layout of the website. The site has the following features;
 
 - Fully flex box layout
 - Slider with images
