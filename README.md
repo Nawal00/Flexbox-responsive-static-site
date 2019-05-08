@@ -2,7 +2,7 @@
 
 * JavaScript
 * SCSS/HTML5
-* Flexbox
+* CSS/Flexbox
 * Flickity - plugin
 * AOS
 
