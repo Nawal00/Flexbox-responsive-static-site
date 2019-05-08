@@ -13,7 +13,6 @@ I built a homepage for a website following a [photoshop file] as the design and 
 - Fully flex box layout
 - Slider with images
 - Youtube embedded player
-- Hyperlinks in sections
 - Editable form fields
 - Fully Responsive
 
